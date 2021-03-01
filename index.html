@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en" class="wrapper light-background"> <!-- Using styles create a certin look -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>ReggieThinkful Homepage</title>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <!-- HTML Bbody of the page -->
+    <body>
+        <header style="margin-bottom: 0">
+
+                <h1>Reggie Warner</h1>
+                <nav>
+                    <ul id="menu">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+        </header>
+
+        <!-- Main of the page: Will contain content sections -->
+        <main>
+            <section>
+                <div class="group"> <!-- picture next to about me and background text-->
+                    <div class="item">
+                        <image src="./images/reggie-headshot.jpg" width="180" > </image>
+                    </div>
+                    <div class="item">
+                        <h2>About Me</h2>
+                        <p>Hello! I'm Reggie Warner and I live in St. Louis, Missouri. This is the first webpage of my web
+                            developement journey. Come along for the ride!</p>
+                    </div>
+                            <div class="item">
+                                <h2>Background</h2>
+                                <p>For the past 10 years, I've worked in cybersecurity, but my true passion has always been programming and software development. I was so excited when I found Thinkful because I now have an opportunity to pursue that passion along with others that are passionate about developement. I'm looking forward to learning from the experts at Thinkful and sharing some of my knowledge with the other students.</p>
+                            </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <div class="group">
+                <h2>Portfolio</h2><!-- Portfolio section: 4 cards -->
+                    <div class="item">
+                        <h2>Upcoming Project 1</h2>
+                        <image src="https://via.placeholder.com/150" alt="placeholder one"></image> 
+                    </div>
+                    <div class="item">
+                        <h2>Upcoming Project 2</h2>
+                        <image src="https://via.placeholder.com/150" alt="placeholder two"></image> 
+
+                    </div>
+                    <div class="item">
+                        <h2>Upcoming Project 3</h2>
+                        <image src="https://via.placeholder.com/150" alt="placeholder three"></image> 
+
+                    </div>
+                    <div class="item">
+                        <h2>Upcoming Project 4</h2>
+                        <image src="https://via.placeholder.com/150" alt="placeholder four"></image> 
+
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                
+                <form action="https://formspree.io/f/xdopvqpv" method="post">
+                    <fieldset>
+                        <legend>Contact:</legend>
+                        <div class="group">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="Name" />
+                                <label for="email">Email:</label>
+                                <input type="text" id="email" name="Email">
+                                <label for="message">Your Message</label>
+                                <textarea id="text" name="message"></textarea>
+                                <button type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+            
+            
+                </form>
+            </section>
+
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
