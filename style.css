@@ -66,6 +66,16 @@ main .group {
 }
 
 
+footer .group {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+footer .group .group {
+  flex-direction: column;
+}
+
 @media all and (min-width: 600px) {
     header {
       display: flex;
