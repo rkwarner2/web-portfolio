@@ -57,6 +57,9 @@ main .group {
   justify-content: space-between;
   padding: 10px;
 }
+main .group .item p {
+  margin: 12px 0;
+}
 
 .item {
   display: flex;
